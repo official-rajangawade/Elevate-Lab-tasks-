@@ -1,0 +1,20 @@
+CREATE DATABASE employee_db;
+
+USE employee_db;
+
+CREATE TABLE employees (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    designation VARCHAR(100) NOT NULL,
+    salary DOUBLE NOT NULL
+);
+SHOW DATABASES;
+USE employee_db;
+SHOW TABLES;
+CREATE TABLE emp(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    designation VARCHAR(100) NOT NULL,
+    salary DOUBLE NOT NULL
+);
+
